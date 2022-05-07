@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mini_proj is
+	port
+	(
+	
+	);
+end entity;
+
+architecture rtl of mini_proj is
+
+	component example 
+		port
+		(
+			a: in std_logic;
+			b: out std_logic;
+		);
+	end component;
+
+begin
+
+end rtl;
